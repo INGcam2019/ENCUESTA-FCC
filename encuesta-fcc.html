@@ -11,14 +11,16 @@
     <section>
         <p id="description">hanak you for taking the time to help us improve the platform</p>
     </section>
-    <form id="survey-form" >
+    <form id="survey-form" class="survey-form">
         <div class=personal_information>
-            <label id="name-label" for="name">Name: <input id="name" type="text" required placeholder="name"/></label>
-            <label  id="email-label" for="email">E-mail: <input id="email" type="email" required placeholder="email"/></label>
-            <label id="number-label" for="number">Age: <input id="number" type="number" pattern="[0-9]" name="number" min=13 max=90 required placeholder="age" /></label>
+            <label id="name-label" for="name">Name:<input id="name" type="text" required placeholder="name"/></label><br>
+            <label  id="email-label" for="email">E-mail:<input id="email" type="email" required placeholder="email"/></label><br>
+            <label id="number-label" for="number" class="title1">Age:<input id="number" type="number" pattern="[0-9]" name="number" min=13 max=90 required placeholder="age" /></label>
+            <br>
            
         </div>
-        <div>
+        <br>
+        <div class="select">
                 <select name="dropdown" id="dropdown">Which option best describes your current role?
                    <!--opcion para dejar una opcion en el select,pero no seleccionadas-->
                     <option disabled selected value="">Select current role</option>
@@ -30,31 +32,36 @@
                 </select>
                 </label>
         </div>
-        <div>
-            <p>Would you recommend freeCodeCamp to a friend?</p>
+        <div class="recommend">
+            <p class="title1">Would you recommend freeCodeCamp to a friend?</p>
             <!--value=obtner valor de eleccion-->
             <label for="definitely"><input type="radio" value="definitely" name="user" checked id="definitely">Definitely</label>
             <label for="maybe"><input type="radio" value="maybe" name="user" id="definitely" checked>Maybe</label>
             <label for="not-sure"><input type="radio" name="user" id="not-sure" value="not-sure" checked>Not sure</label>
             
         </div>
-        <div>
+        <div class="chek">
             <p>What would you like to see improved? (Check all that apply)</p>
             <!--value es para formularios,name para control,id para relacionar con label-->
-            <label for="Front-end Projects"><input type="checkbox" value="Front-end Projects" name="prefer" id="Front-end Projects" required>Front-end Projects</label>
-            <label for="Back-end Projects"><input type="checkbox" value="Back-end Projects" name="prefer" id="Back-end Projects" required>Back-end Projects</label>
-            <label for="Data Visualization"><input type="checkbox" value="Data Visualization" name="prefer" id="Data Visualization" required>Data Visualization</label>
-            <label for="Challenges"><input type="checkbox" value="Challenges" name="=prefer" id="Challenges" required>Challenges</label>
-            <label for="Open Source Community"><input type="checkbox" value="Open Source Community" name="prefer" id="Open Source Community" required>Open Source Community</label>
-            <label for="Gitter help rooms"><input type="checkbox" value="Gitter help rooms" id="Gitter help rooms" name="prefer" required>Gitter help rooms</label>
-            <label for="Videos"><input type="checkbox" name="prefer" id="Videos" value="Videos" required>Videos</label>
-            <label for="City Meetups"><input type="checkbox" name="prefer" id="City Meetups" value="City Meetups" required>City Meetups</label>
-            <label for="Wiki"><input type="checkbox" value="Wiki" name="prefer" id="Wiki" required>wiki</label>
-            <label for="Forum"><input type="checkbox" name="prefer" id="Forum" value="Forum" required>forum</label>
+            <label for="Front-end Projects"><input type="checkbox" value="Front-end Projects" name="prefer" id="Front-end Projects" required>Front-end Projects</label><br>
+            <label for="Back-end Projects"><input type="checkbox" value="Back-end Projects" name="prefer" id="Back-end Projects" required>Back-end Projects</label><br>
+            <label for="Data Visualization"><input type="checkbox" value="Data Visualization" name="prefer" id="Data Visualization" required>Data Visualization</label><br>
+            <label for="Challenges"><input type="checkbox" value="Challenges" name="=prefer" id="Challenges" required>Challenges</label><br>
+            <label for="Open Source Community"><input type="checkbox" value="Open Source Community" name="prefer" id="Open Source Community" required>Open Source Community</label><br>
+            <label for="Gitter help rooms"><input type="checkbox" value="Gitter help rooms" id="Gitter help rooms" name="prefer" required>Gitter help rooms</label><br>
+            <label for="Videos"><input type="checkbox" name="prefer" id="Videos" value="Videos" required>Videos</label><br>
+            <label for="City Meetups"><input type="checkbox" name="prefer" id="City Meetups" value="City Meetups" required>City Meetups</label><br>
+            <label for="Wiki"><input type="checkbox" value="Wiki" name="prefer" id="Wiki" required>wiki</label><br>
+            <label for="Forum"><input type="checkbox" name="prefer" id="Forum" value="Forum" required>forum</label><br>
             <label for="Additional Courses"><input type="checkbox" id="Additional Courses" value="Additional Courses" name="prefer" required>Additional Courses</label>
         </div>
-        <div>
-            <label for="Any comments or suggestions?">Any comments or suggestions?<textarea name="Any comments or suggestions?" id="Any comments or suggestions? " cols="30" rows="10" placeholder="Enter your comment here..."></textarea></label>
+        <br>
+        <div class="border">
+            <label for="Any comments or suggestions?"><br><textarea name="Any comments or suggestions?"  id="Any comments or suggestions? " cols="30" rows="10" placeholder="Enter your comment here..."></textarea><br>Any comments or suggestions?</label>
+            <br>
+            <br>
+        </div>
+        <div class="border1">
             <button type="submit" id="submit" value="submit">Submit</button>            
         </div>
 
