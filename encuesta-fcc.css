@@ -1,48 +1,35 @@
-body {
+body{
+
+  
     width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color:cyan;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    color:black  
     
-    background-color:turquoise;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-  }
-.personal_information{
-    
-  height: 0vh;
-  display:flex;
-  
-  place-content:center;
 }
-h1, p {
-    margin: 1em auto;
-    text-align: center;
-  }
-.select,.recommend{
-  height: 10vh;
-  display: grid;
-  
-  place-content: center;
-}
-.border{
-  height: 20vh;
-  display: grid;
-   
-  place-content: center;
- 
-}
-.border1{
-  height: 20vh;
-  display: grid;
-   
-  place-content: center;
+p{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
-.chek{
-  height:70vh;
-  display:grid;
-   
-  place-content: center;
-  }
-.title1{
-    text-align:left;
-  }
+h1{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+}
+.survey-form{
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.recommend{
+  display:inline-block;
+  
+}

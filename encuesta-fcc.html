@@ -13,9 +13,9 @@
     </section>
     <form id="survey-form" class="survey-form">
         <div class=personal_information>
-            <label id="name-label" for="name">Name:<input id="name" type="text" required placeholder="name"/></label><br>
-            <label  id="email-label" for="email">E-mail:<input id="email" type="email" required placeholder="email"/></label><br>
-            <label id="number-label" for="number" class="title1">Age:<input id="number" type="number" pattern="[0-9]" name="number" min=13 max=90 required placeholder="age" /></label>
+            <label id="name-label" for="name">Name:<br><input id="name" type="text" required placeholder="name"/></label><br>
+            <label  id="email-label" for="email">E-mail:<br><input id="email" type="email" required placeholder="email"/></label><br>
+            <label id="number-label" for="number" class="title1">Age:<br><input id="number" type="number" pattern="[0-9]" name="number" min=13 max=90 required placeholder="age" /></label>
             <br>
            
         </div>
@@ -35,11 +35,12 @@
         <div class="recommend">
             <p class="title1">Would you recommend freeCodeCamp to a friend?</p>
             <!--value=obtner valor de eleccion-->
-            <label for="definitely"><input type="radio" value="definitely" name="user" checked id="definitely">Definitely</label>
-            <label for="maybe"><input type="radio" value="maybe" name="user" id="definitely" checked>Maybe</label>
-            <label for="not-sure"><input type="radio" name="user" id="not-sure" value="not-sure" checked>Not sure</label>
+            <label for="definitely"><input type="radio" value="definitely" name="user" checked id="definitely">Definitely <br></label>
+            <label for="maybe"><input type="radio" value="maybe" name="user" id="definitely" checked>Maybe <br></label>
+            <label for="not-sure"><input type="radio" name="user" id="not-sure" value="not-sure" checked>Not sure <br></label>
             
         </div>
+        
         <div class="chek">
             <p>What would you like to see improved? (Check all that apply)</p>
             <!--value es para formularios,name para control,id para relacionar con label-->
@@ -57,7 +58,7 @@
         </div>
         <br>
         <div class="border">
-            <label for="Any comments or suggestions?"><br><textarea name="Any comments or suggestions?"  id="Any comments or suggestions? " cols="30" rows="10" placeholder="Enter your comment here..."></textarea><br>Any comments or suggestions?</label>
+            <label for="Any comments or suggestions?"><br><textarea name="Any comments or suggestions?"  id="Any comments or suggestions?" cols="30" rows="10" placeholder="Enter your comment here..."></textarea><br>Any comments or suggestions?</label>
             <br>
             <br>
         </div>
